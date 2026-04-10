@@ -240,18 +240,12 @@ p {
   align-items: center;
 }
 
-.about-photo-placeholder {
+.about-photo {
   flex-shrink: 0;
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #d4a574, #c0713a);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  font-size: 1.4rem;
-  font-weight: 700;
+  object-fit: cover;
 }
 
 .about-text h2 {
